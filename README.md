@@ -1,80 +1,84 @@
-Residential Real Estate Market Analysis – Power BI Dashboard
-Overview
+# Residential Real Estate Market Analysis – Power BI Dashboard
 
-This project analyzes residential real estate data to uncover pricing trends, geographic distribution patterns, and property characteristics that support strategic investment decisions.
+## Business Context
 
-As a Data Analyst, the objective was to build an interactive Power BI dashboard that enables senior management to evaluate market conditions and identify high-potential property acquisition opportunities.
+The U.S. residential real estate market has experienced significant price growth driven by strong demand and changing economic conditions. 
 
-Business Objectives
+As a leading real estate company operating in the residential segment, the organization aims to leverage data analytics to identify high-value opportunities, understand pricing trends, and make informed property investment decisions.
 
-Analyze residential property pricing trends over time
+This dashboard was developed to provide senior management with actionable insights into housing prices, property characteristics, and regional performance trends.
 
-Evaluate average prices across cities
+---
 
-Understand property quality distribution
+## Objective
 
-Assess how property features (rooms, bathrooms, furnishing status) influence pricing
+The primary objectives of this analysis are to:
 
-Support data-driven expansion decisions
+- Analyze housing price trends across cities and months
+- Identify high-performing property segments
+- Understand the relationship between property quality, size, and pricing
+- Evaluate regional pricing patterns
+- Support data-driven property acquisition decisions
 
-Key Metrics (KPIs)
+---
 
-Total Properties Analyzed
+## Key KPIs
 
-Average Property Price
+- **Total Properties:** 21,100  
+- **Average Property Price:** $540,200  
+- **Average Area:** 17,200 sq ft  
+- **Average Quality Rating:** 3  
+- **Furnished Properties:** 19.87%
 
-Average Area (sq ft)
+---
 
-Average Quality Rating
+## Dashboard Highlights
 
-Percentage of Furnished Properties
+### 1️⃣ Sales Trends
+- Monthly total price and total properties sold
+- Identification of seasonal demand patterns
 
-Dashboard Insights
+### 2️⃣ Geographic Pricing Analysis
+- Interactive city-level pricing map
+- Visual comparison of average prices by location
 
-Property prices show noticeable monthly variation, with peak activity during mid-year months.
+### 3️⃣ Property Quality Distribution
+- Breakdown of properties by quality rating
+- Insight into which quality segments dominate the market
 
-Certain cities (e.g., Seattle) demonstrate significantly higher average prices.
+### 4️⃣ Property Segmentation Analysis
+- City, number of bathrooms, and room filters
+- Flow-based analysis of property distribution across segments
 
-Most properties fall within mid-tier quality ratings.
+---
 
-Higher room counts and bathrooms correlate with higher price ranges.
+## Tools & Technologies
 
-Geographic distribution reveals strong clustering in high-demand urban regions.
+- **Power BI Desktop**
+- DAX Measures
+- Data Modeling
+- Interactive Slicers
+- Azure Map Visual
 
-Dashboard Features
+---
 
-KPI cards for executive overview
+## Dashboard Preview
 
-Monthly pricing trend analysis
+![Overview](images/dashboard_real_estate_analysis.png)
 
-City-level average price mapping
+## Repository Contents
 
-Property quality distribution
+- `RealEstateAnalysis.pbix` – Power BI dashboard file  
+- `images/` – Dashboard screenshots  
+- `README.md` – Project documentation  
 
-Drill-down filters by:
+---
 
-City
+## Business Impact
 
-Rooms
+This dashboard enables leadership to:
 
-Bathrooms
-
-Furnishing status
-
-Tools & Skills Demonstrated
-
-Power BI Desktop
-
-Data modeling and relationship management
-
-DAX measures for aggregation and segmentation
-
-Geographic map visualization
-
-Interactive slicers and filtering
-
-Executive-level dashboard storytelling
-
-Business Impact
-
-This dashboard provides leadership with clear visibility into residential pricing dynamics and property segmentation, enabling informed acquisition and expansion strategies within competitive markets.
+- Identify profitable property segments
+- Optimize pricing strategy
+- Target high-demand locations
+- Make informed acquisition decisions
